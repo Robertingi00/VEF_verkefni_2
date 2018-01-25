@@ -3,14 +3,14 @@ import os
 
 @route('/')
 def index():
-    return "<a href='/verk1'>Verkefni 1</a>" \
+    return "<a href='/verk1'>Verkefni 1</a> " \
            "<a href='/verk2'>Verkefni 2</a>"
 
 @route('/verk1')
 def verkefni1():
     return "<h1>Verhefni 2.b<h1>"\
-           "<h3><a href='/verk1/sida1'>Siða 1</a>" \
-           "<a href='/verk1/sida2'>Siða 2</a>" \
+           "<h3><a href='/verk1/sida1'>Siða 1</a> " \
+           "<a href='/verk1/sida2'>Siða 2</a> " \
            "<a href='/verk1/sida3'>Siða 3</a></h3>" \
            "<a href='/'>Til baka</a>"
 
